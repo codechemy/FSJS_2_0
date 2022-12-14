@@ -1,0 +1,139 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 120px;
+}
+
+.navbar-container{
+    display: flex;
+    height: 30px;
+    position: relative;
+}
+
+.navbar-container > div{
+    position: absolute;
+}
+
+.navbar-container > div:nth-child(1){
+    left: 0px;
+    top: 43px;
+}
+
+img[alt="brand-logo"]{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+}
+
+.grow-list{
+    left: 180px;
+    top: 50px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 100%;
+    list-style-type: none;
+}
+
+.list-item{
+    color: #acacac;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.list-item:hover{
+    color: #000000;
+    font-size: 18px;
+}
+
+.list-item:first-child{
+    color: #000000;
+}
+
+.button-group{
+    right: 0px;
+    top: 34px;
+}
+
+.nav-button{
+    background-color: #7475DA;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px 26px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.nav-button:hover{
+    background-color: #ffffff;
+    color: #7475DA;
+    font-size: 18px;
+}
+
+.banner-container{
+   position: relative;
+}
+
+.banner-container > div{
+    position: absolute;
+}
+
+.banner-container div:nth-child(1){
+    top: 200px;
+    left: 0px;
+    width: 30%;
+}
+
+.heading-text{
+    font-weight: bold;
+    font-size: 60px;
+    text-align:left;
+    color: #241f68;
+    line-height: 70px;
+    margin-bottom: 26px;
+}
+
+.heading-text span{
+    color: #7475DA;
+}
+
+.description{
+    color: #808080;
+    margin-bottom: 82px;
+}
+
+button.btn{
+    padding: 22px 34px;
+}
+
+.banner-container div:nth-child(2){
+    top: 100px;
+    right: -120px;
+}
+
+img[alt="illustration"]{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Replica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="w-100">
+    <!-- Navbar section -->
+    <nav class="flex flex-row items-center h-14 px-36 font-['Segoe_UI'] bg-[#2C2C32]">
+        <section class="flex flex-row items-center">
+            <img class="w-8" src="./assets/images/vs-code-logo.png" alt="logo of vs code">
+            <p class="ml-4 text-[#FFFFE4] text-xl">Visual Studio Code</>
+        </section>
+        <ul class="flex flex-row items-center text-[#6D6D71]">
+            <li class="ml-8 text-lg font-medium font-['Segoe_UI'] cursor-pointer hover:text-[#ffffff] transition-all">
+                Docs</li>
+            <li class="ml-8 text-lg font-medium font-['Segoe_UI'] cursor-pointer hover:text-[#ffffff] transition-all">
+                Updates</li>
+            <li class="ml-8 text-lg font-medium font-['Segoe_UI'] cursor-pointer hover:text-[#ffffff] transition-all">
+                Blog</li>
+            <li class="ml-8 text-lg font-medium font-['Segoe_UI'] cursor-pointer hover:text-[#ffffff] transition-all">
+                Api</li>
+            <li class="ml-8 text-lg font-medium font-['Segoe_UI'] cursor-pointer hover:text-[#ffffff] transition-all">
+                Extensions</li>
+            <li class="ml-8 text-lg font-medium font-['Segoe_UI'] cursor-pointer hover:text-[#ffffff] transition-all">
+                FAQ</li>
+            <li class="ml-8 text-lg font-medium font-['Segoe_UI'] cursor-pointer hover:text-[#ffffff] transition-all">
+                Learn</li>
+        </ul>
+        <div class="flex flex-row ml-auto">
+            <section class="flex flex-row items-center h-14 pr-3.5 pl-10 bg-[#3D3D42] cursor-pointer hover:opacity-70">
+                <img class="w-4" src="./assets/icons/search.svg" alt="Search icon">
+                <input type="text" name="doc-search" id="doc-search" placeholder="Search Docs"
+                    class="text-lg text-[#6D6D71] ml-4 bg-transparent outline-none border-none">
+            </section>
+            <button
+                class="flex flex-row items-center h-14 pl-5 pr-5 bg-[#0066B8] text-[#FFFFE4] text-lg font-semibold hover:opacity-70">
+                <img class="w-4 mr-2" src="./assets/icons/download.svg" alt="Download">
+                Download
+            </button>
+        </div>
+    </nav>
+    <!-- Hero section -->
+    <main class="bg-[#2C2C32] px-36 h-[93vh]">
+        <div class="flex flex-row items-center h-full">
+            <section class="w-1/3 flex flex-col text-center">
+                <h1 class="text-white text-7xl font-light mb-4">Code Editing.<br>
+                    <span class="font-medium">Redefined.</span>
+                </h1>
+                <h3 class="text-[#6D6D71] text-2xl mb-6">Free.Built on open-source.Runs Anywhere</h3>
+                <section class="flex flex-row justify-center mb-6">
+                    <button class="bg-[#0066B8] py-5 px-10 text-white text-xl hover:opacity-70">
+                        Download for Windows <br>
+                        Stable build
+                    </button>
+                    <section class="bg-[#0066B8] w-8 ml-0.5 flex justify-center hover:opacity-70 items-center cursor-pointer">
+                        <img class="w-4" src="./assets/icons/chevronDown.svg" alt="Downicon">
+                    </section>
+                </section>
+                <section class="text-white text-lg">
+                    <a class="text-[#0066B8]" href="#">Web</a>
+                    <a class="text-[#0066B8]" href="#">Insider's Edition</a>, or
+                    <a class="text-[#0066B8]" href="#">other platforms</a>
+                </section>
+            </section>
+            <section class="w-2/3">
+                <img class="w-[93%] ml-auto" src="./assets/home/home-screenshot-win-lg.png" alt="sample">
+            </section>
+        </div>
+        <!-- Features section-->
+        <section class="flex flex-row h-48 px-2 justify-center items-center">
+            <div class="hover:bg-[#F5F5F5] cursor-pointer h-full basis-96 flex flex-col items-center justify-center">
+                <img src="./assets/icons/bulb.png" class="w-24 mb-2" alt="IntelliSense">
+                <p class="text-lg">IntelliSense</p>
+            </div>
+            <div class="hover:bg-[#F5F5F5] cursor-pointer h-full basis-96 flex flex-col items-center justify-center">
+                <img src="./assets/icons/debug.png" class="w-24 mb-2" alt="Run and Debug">
+                <p class="text-lg">Run and Debug</p>
+            </div>
+            <div class="hover:bg-[#F5F5F5] cursor-pointer h-full basis-96 flex flex-col items-center justify-center">
+                <img src="./assets/icons/git.png" class="w-24 mb-2" alt="Built-in Git">
+                <p class="text-lg">Built-in Git</p>
+            </div>
+            <div class="hover:bg-[#F5F5F5] cursor-pointer h-full basis-96 flex flex-col items-center justify-center">
+                <img src="./assets/icons/extensions.png" class="w-24 mb-2" alt="Extensions">
+                <p class="text-lg">Extensions</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

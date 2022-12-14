@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 05 - FSJS2.0</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+     <!-- Font Orbiton -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+       rel="stylesheet"
+     />
+</head>
+<body class="container mx-auto font-[Poppins]">
+    <nav class="flex flex-row justify-between items-center h-24 w-full">
+        <img class="cursor-pointer" src="./images/logo.png" alt="Logo">
+        <ul class="flex flex-row ml-auto">
+            <li class="mr-12 text-xl font-bold hover:text-white hover:bg-[#41D399] hover:rounded-2xl hover:px-4 py-1 transition-all cursor-pointer ">Home</li>
+            <li class="mr-12 text-xl font-bold hover:text-white hover:bg-[#41D399] hover:rounded-2xl hover:px-4 py-1 transition-all cursor-pointer ">About us</li>
+            <li class="mr-12 text-xl font-bold hover:text-white hover:bg-[#41D399] hover:rounded-2xl hover:px-4 py-1 transition-all cursor-pointer ">Our services</li>
+            <li class="text-xl font-bold hover:text-white hover:bg-[#41D399] hover:rounded-2xl hover:px-4 py-1 transition-all cursor-pointer ">Contact us</li>
+        </ul>
+    </nav>
+    <main class=" bg-auto bg-no-repeat bg-center bg-[url('./images/stethoscope.png')] flex flex-row w-full mt-8">
+        <section class="w-8/12 pr-12 mt-24">
+            <img class="" src="./images/topAngle.png" alt="Angle border">
+            <h1 class="mb-12 text-8xl font-bold text-left">Complete Health Care Solutions For Everyone</h1>
+            <h4 class="text-xl font-medium -mb-8 text-gray-400">We're always available for our Patients with emergen problems.
+               <br> We focus on High Quality Always.</h4>
+            <img class="ml-auto mr-24" src="./images/bottomAngle.png" alt="Angle border">
+            <button class="mt-12 px-40 py-4 bg-[#41D399] rounded-3xl hover:scale-110
+                           text-white text-xl font-medium cursor-pointer transition-all">
+                Make Appoinment
+            </button>
+            <img class="ml-auto mr-12 transition-all cursor-pointer hover:scale-y-110" src="./images/mouse.png" alt="Mouse icon">
+        </section>
+        <section class="w-4/12 relative">
+            <img class="absolute top-32" src="./images/greenBox.png" alt="Green circle">
+            <img class="absolute w-11/12 -right-4 top-40" src="./images/yellowBox.png" alt="Yellow circle">
+            <img class="absolute" src="./images/doctor.png" alt="Doctor">
+        </section>
+    </main>
+</body>
+</html>
